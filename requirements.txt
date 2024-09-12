@@ -1,0 +1,20 @@
+# Operating System
+Ubuntu 22.04 (Jammy Jellyfish) or compatible
+
+# Development Tools
+g++ (Version 11 or later)
+
+# Dependencies to Install via apt (OpenCV and related libraries)
+# OpenCV 4.5.4
+sudo apt-get install libopencv-dev
+# Build Essentials
+sudo apt-get install build-essential
+# POSIX Threads
+sudo apt-get install libpthread-stubs0-dev
+
+# OpenCV Libraries Included in libopencv-dev
+opencv-core
+opencv-videoio
+opencv-imgcodecs
+opencv-highgui
+opencv-imgproc
